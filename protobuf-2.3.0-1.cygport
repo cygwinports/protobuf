@@ -1,0 +1,5 @@
+
+HOMEPAGE="http://code.google.com/p/protobuf/"
+SRC_URI="http://protobuf.googlecode.com/files/${P}.tar.bz2"
+
+DIFF_EXCLUDES="*_pb2.py"
