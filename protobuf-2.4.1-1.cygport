@@ -1,7 +1,0 @@
-DESCRIPTION="Google Protocol Buffers library"
-HOMEPAGE="http://code.google.com/p/protobuf/"
-SRC_URI="http://protobuf.googlecode.com/files/${P}.tar.bz2"
-
-PKG_NAMES="libprotobuf7 libprotobuf-devel"
-libprotobuf7_CONTENTS="usr/bin/*-7.dll"
-libprotobuf_devel_CONTENTS="usr/bin/protoc.exe usr/include/ usr/lib/ usr/share/doc/"

@@ -1,0 +1,14 @@
+NAME="protobuf"
+VERSION=2.5.0
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Google Protocol Buffers library"
+DESCRIPTION="Protocol Buffers are a way of encoding structured data in an
+efficient yet extensible format. Google uses Protocol Buffers for almost all
+of its internal RPC protocols and file formats."
+HOMEPAGE="http://code.google.com/p/protobuf/"
+SRC_URI="http://protobuf.googlecode.com/files/${P}.tar.bz2"
+
+PKG_NAMES="libprotobuf8 libprotobuf-devel"
+libprotobuf8_CONTENTS="usr/bin/*-8.dll"
+libprotobuf_devel_CONTENTS="usr/bin/protoc.exe usr/include/ usr/lib/ usr/share/doc/"
